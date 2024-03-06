@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="DatabaseEntry">
+  <grid id="27dc6" binding="dbEntry" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+    <constraints>
+      <xy x="20" y="20" width="781" height="40"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.0"/>
+      <alignmentY value="0.0"/>
+      <autoscrolls value="false"/>
+      <maximumSize width="32767" height="40"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="6533e" class="javax.swing.JLabel" binding="dbFirstName">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="10"/>
+          <maximumSize width="160" height="17"/>
+          <minimumSize width="160" height="17"/>
+          <preferredSize width="160" height="17"/>
+          <text value="FIRST NAME"/>
+        </properties>
+      </component>
+      <component id="1917a" class="javax.swing.JLabel" binding="dbLastName">
+        <constraints/>
+        <properties>
+          <maximumSize width="160" height="17"/>
+          <minimumSize width="160" height="17"/>
+          <preferredSize width="160" height="17"/>
+          <text value="LAST NAME"/>
+        </properties>
+      </component>
+      <component id="491df" class="javax.swing.JLabel" binding="dbBirthday">
+        <constraints/>
+        <properties>
+          <maximumSize width="86" height="17"/>
+          <minimumSize width="86" height="17"/>
+          <preferredSize width="86" height="17"/>
+          <text value="BIRTDHAY"/>
+        </properties>
+      </component>
+      <component id="816d8" class="javax.swing.JLabel" binding="dbUserGroup">
+        <constraints/>
+        <properties>
+          <maximumSize width="100" height="17"/>
+          <minimumSize width="100" height="17"/>
+          <preferredSize width="100" height="17"/>
+          <text value="USERGROUP"/>
+        </properties>
+      </component>
+      <component id="ed6b4" class="javax.swing.JButton" binding="dbEdit">
+        <constraints/>
+        <properties>
+          <alignmentX value="0.5"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="11"/>
+          <icon value="icon/user-edit.png"/>
+          <label value=""/>
+          <maximumSize width="120" height="17"/>
+          <minimumSize width="120" height="17"/>
+          <preferredSize width="30" height="30"/>
+          <selected value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8444a" class="javax.swing.JButton" binding="dbRemove">
+        <constraints/>
+        <properties>
+          <alignmentX value="0.5"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="11"/>
+          <icon value="icon/user-delete.png"/>
+          <label value=""/>
+          <maximumSize width="120" height="17"/>
+          <minimumSize width="120" height="17"/>
+          <preferredSize width="30" height="30"/>
+          <selected value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
