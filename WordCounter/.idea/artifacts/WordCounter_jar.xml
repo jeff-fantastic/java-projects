@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="WordCounter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WordCounter_jar</output-path>
+    <root id="archive" name="WordCounter.jar">
+      <element id="module-output" name="WordCounter" />
+    </root>
+  </artifact>
+</component>
